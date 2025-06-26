@@ -1,9 +1,9 @@
 from aiogram import Router, types, F
 from aiogram.filters import CommandStart
-from bot.keyboards.main_menu import main_menu_ru, keyboard_lang, main_menu_kz
+from keyboards.main_menu import main_menu_ru, keyboard_lang, main_menu_kz
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
-from ..texts import text
+from texts import text
 
 router = Router()
 

@@ -3,9 +3,9 @@ from docx import Document
 import os
 # Models
 
-from bot.services.groq_service import ask_groq, ask_groq_category
+from services.groq_service import ask_groq, ask_groq_category
 
-from bot.db.crud import save_chat_history, get_history_text_by_session
+from db.crud import save_chat_history, get_history_text_by_session
 
 
 files = {

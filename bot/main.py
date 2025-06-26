@@ -3,11 +3,11 @@ from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 import asyncio
 
-from .handlers import common, menu_router, ai_handler, message_logger
-from .handlers.documents import hanlders
-from .handlers.unt import handlers_unt
-from bot.db.database import init_db
-from bot.middlewares.logging import LoggingMiddleware
+from handlers import common, menu_router, ai_handler, message_logger
+from handlers.documents import hanlders
+from handlers.unt import handlers_unt
+from db.database import init_db
+from middlewares.logging import LoggingMiddleware
 
 import os
 from dotenv import load_dotenv

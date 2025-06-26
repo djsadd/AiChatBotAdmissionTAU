@@ -1,6 +1,6 @@
 from aiogram import Router, types, F
-from bot.db.database import async_session
-from bot.db.models import MessageModel
+from db.database import async_session
+from db.models import MessageModel
 
 router = Router()
 

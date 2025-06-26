@@ -6,9 +6,9 @@ import uuid
 
 # Models
 
-from bot.keyboards.main_menu import main_menu_ru_exit_bot, main_menu_ru
+from keyboards.main_menu import main_menu_ru_exit_bot, main_menu_ru
 from datetime import datetime, timedelta
-from bot.server.ask_groq import ask_ai
+from server.ask_groq import ask_ai
 router = Router()
 
 

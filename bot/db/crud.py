@@ -1,6 +1,6 @@
 
-from bot.db.database import async_session
-from bot.db.models import ChatHistory
+from db.database import async_session
+from db.models import ChatHistory
 from sqlalchemy import select
 
 

@@ -1,8 +1,8 @@
 from aiogram import BaseMiddleware
 from aiogram.types import Message, CallbackQuery
 from typing import Callable, Dict, Any, Awaitable
-from bot.db.database import async_session
-from bot.db.models import MessageModel
+from db.database import async_session
+from db.models import MessageModel
 from datetime import datetime
 
 
