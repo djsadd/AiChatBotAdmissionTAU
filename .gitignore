@@ -1,0 +1,10 @@
+.env
+
+venv/
+texts/
+
+.sqlite
+.docx
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
